@@ -6,7 +6,7 @@
 
     <default revision="master" sync-j="4"/>
    
-	<project name="linux.git" remote="rpi" path="srcs/linux" revision="v4.1" />
+	<project name="linux.git" remote="rpi" path="srcs/linux" revision="tag2" />
 	<project name="buildroot.git" remote="buildroot" path="srcs/buildroot" />
 	<project name="jailhouse.git" remote="github" path="srcs/jailhouse" />
 </manifest>
