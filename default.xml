@@ -4,7 +4,7 @@
 	<remote name="github" fetch="https://github.com/demathif"/>
     <remote name="buildroot" fetch="git://git.buildroot.net"/>
 
-    <default revision="master" sync-j="4"/>
+    <default revision="master" sync-j="2"/>
    
 	<project name="linux.git" remote="rpi" path="srcs/linux" revision="refs/tags/tag2" />
 	<project name="buildroot.git" remote="buildroot" path="srcs/buildroot" />
